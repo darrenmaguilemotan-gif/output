@@ -52,7 +52,7 @@ button{
 @media  (max-width:768px) {
     .burger {display: block;}
 .burger{
-    display: none;
+    display: block;
     list-style: none;
   flex-direction: column;
   background-color: #444;
