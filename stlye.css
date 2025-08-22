@@ -21,6 +21,11 @@ font-size: larger;
 font-family: Arial;
 color: rgb(0, 0, 0);
 }
+.information{
+    padding-top: 0px;
+    word-spacing: normal;
+    text-align: left;
+}
 button{
     text-align: left;
     word-spacing: 15px;
@@ -44,7 +49,8 @@ button{
   display: none;
 }
 @media  (max-width:480px){} 
-@media  (max-width:768px) {.burger {display: block;}
+@media  (max-width:768px) {
+    .burger {display: block;}
 .burger{
     display: none;
     list-style: none;
@@ -70,6 +76,7 @@ div{
 
 }
 }
+
 @media  (min-width:601)and (max-width:768px){  }
 @media  (min-width:768)and (max-width:1024px){ }
 @media  (min-width:1025)and (max-width:1280px){  }
