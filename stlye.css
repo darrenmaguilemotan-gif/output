@@ -15,7 +15,7 @@ div{
     padding-right: 250px;
 
 }
-div.information{
+.information{
     text-align: left;
     text-align: justify;
     padding-top: 0;
@@ -64,7 +64,7 @@ button{
 @media  (max-width:768px) {.burger {display: block;}
 
 }
-.button{
+button{
     cursor: pointer;
     display: none;
 }
